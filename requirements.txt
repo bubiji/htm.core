@@ -14,3 +14,4 @@ prettytable>=0.7.2 # for monitor-mixin in htm.advanced (+its tests)
 # should be placed in setup.py section extras_require. Install those by
 # pip install htm.core[examples] 
 requests
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
